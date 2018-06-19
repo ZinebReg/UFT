@@ -1,4 +1,4 @@
-﻿SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" , "http://www.casinodrive.fr/ecommerce/GC-catalog/fr/WE29177/"
+﻿'SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" , "http://www.casinodrive.fr/ecommerce/GC-catalog/fr/WE29177/"
 If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement").Exist(5) Then
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement").Click
 End If
@@ -10,7 +10,7 @@ If Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Co
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colas").Click
 End If
 
-If Parameter.Item("Param1") = nothing Then
+If Parameter.Item("Param2") = "TTT" Then
 	
 	Browser("Le magasin en ligne des").Close
 End If
