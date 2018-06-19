@@ -9,4 +9,9 @@ End  If
 If Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colas").Exist(10) Then
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colas").Click
 End If
+
+If Parameter.Item("Param1") = nothing Then
+	
+	Browser("Le magasin en ligne des").Close
+End If
 'Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colaaaas").Click
