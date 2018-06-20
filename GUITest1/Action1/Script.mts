@@ -10,7 +10,7 @@ If Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Co
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colas").Click
 End If
 
-If Parameter.Item("Param2") = "TTT" Then
+If Parameter.Item("Param2") = "Entrer le chemin d un fichier" Then
 	
 	Browser("Le magasin en ligne des").Close
 End If
