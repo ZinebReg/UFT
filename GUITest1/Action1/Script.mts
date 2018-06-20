@@ -10,8 +10,12 @@ If Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Co
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colas").Click
 End If
 
-If Parameter.Item("Param2") = "Entrer le chemin d un fichier" Then
+'If Parameter.Item("Param2") = "Entrer le chemin d un fichier" Then
 	
-	Browser("Le magasin en ligne des").Close
-End If
+'	Browser("Le magasin en ligne des").Close
+'End If
 'Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colaaaas").Click
+
+Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Click @@ script infofile_;_ZIP::ssf4.xml_;_
+Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Set Parameter.Item("Param2") @@ script infofile_;_ZIP::ssf5.xml_;_
+Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebButton("WebButton").Click @@ script infofile_;_ZIP::ssf6.xml_;_
