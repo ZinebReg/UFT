@@ -7,7 +7,7 @@ End If
  Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Click @@ script infofile_;_ZIP::ssf4.xml_;_
  End If
  
- If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query") Then
+ If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Exist(3) Then
  	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Set Parameter.Item("Param2")
  End If
  @@ script infofile_;_ZIP::ssf5.xml_;_
