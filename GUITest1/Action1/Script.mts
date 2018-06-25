@@ -2,7 +2,14 @@
 If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement").Exist(5) Then
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement").Click
 End If
-
+ 
+ if Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Exist(5) Then
+ Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Click @@ script infofile_;_ZIP::ssf4.xml_;_
+ End If
+ 
+ If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Exist(3) Then
+ 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Set Parameter.Item("Param2")
+ End If
  'if Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Exist(5) Then
  'Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Click @@ script infofile_;_ZIP::ssf4.xml_;_
  'End If
@@ -20,13 +27,7 @@ If Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Co
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colas").Click
 End If
 
-if Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Exist(5) Then
- Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Click @@ script infofile_;_ZIP::ssf4.xml_;_
- End If
- 
- If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Exist(3) Then
- 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Set Parameter.Item("Param2")
- End If
+
 
 'If Parameter.Item("Param2") = "Entrer le chemin d un fichier" Then
 	
