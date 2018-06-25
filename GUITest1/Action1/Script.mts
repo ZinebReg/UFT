@@ -18,7 +18,7 @@ End If
  '	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebEdit("query").Set Parameter.Item("Param2")
  'End If
  @@ script infofile_;_ZIP::ssf5.xml_;_
-Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebButton("WebButton").Click @@ script infofile_;_ZIP::ssf1.xml_;_
+'Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebButton("WebButton").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 
 if Browser("Le magasin en ligne des").Page("Le magasin en ligne des").Link("Boissons").Exist(10) then 
 	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").Link("Boissons").Click @@ script infofile_;_ZIP::ssf2.xml_;_
