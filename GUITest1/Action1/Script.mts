@@ -1,6 +1,7 @@
 ﻿'SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" , "http://www.casinodrive.fr/ecommerce/GC-catalog/fr/WE29177/"
-If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement").Exist(5) Then
-	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement").Click
+ @@ script infofile_;_ZIP::ssf14.xml_;_
+If Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_3").Exist(5) Then
+	Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_3").Click
 End If
  
  if Browser("Le magasin en ligne des").Page("Le magasin en ligne des").WebElement("WebElement_2").Exist(5) Then
@@ -34,5 +35,4 @@ End If
 '	Browser("Le magasin en ligne des").Close
 'End If
 'Browser("Le magasin en ligne des").Page("Le magasin en ligne des_2").Link("Colaaaas").Click
-
  @@ script infofile_;_ZIP::ssf6.xml_;_
